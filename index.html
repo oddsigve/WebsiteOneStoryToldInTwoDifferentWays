@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html  id="time" lang="en">
+	<head>
+		<title>Time</title>
+		<meta charset="UTF-8">
+		<script type="application/javascript" src="javascript.js"></script>
+		<link id="pagestyle" href="css/one.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="icon/clock.ico" /><!--Free icons http://www.iconsdb.com/white-icons/clock-icon.html -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	</head>
+	<body id="multipleBGs">
+		<header>
+			<h1>
+				Time...
+			</h1>
+		</header>
+		<button id="stylesheet1" onclick='swapStyleSheet("css/one.css")'>
+				Change style
+		</button>
+	    <button id="stylesheet2" onclick='swapStyleSheet("css/two.css")'>
+	    		Change style
+	    </button>
+		<section id="el1">
+			<figure>
+				<img src="img/byparken1.png" alt="Pavillion in Byparken, Bergen">
+				<figcaption>
+					Starting in Byparken and<br> walk towards Torgallmenningen
+				</figcaption>
+			</figure>
+			<p id="p1TextDecor">
+					Time passes away
+			</p>
+		</section>	
+		<section id="el2">
+			<figure>
+				<img src="img/torgallmenningen1.png" alt="Monument at Torgallmenningen, Bergen">
+				<figcaption>
+					Arriving at Torgallmenningen<br> Bryggen in the distance
+				</figcaption>
+			</figure>
+			<p id="p2TextDecor">
+				But memories stay
+			</p>	
+		</section>
+		<section id="el3">
+			<figure>
+				<img src="img/hansa1.png" alt="Hanseatic League Buildings, Bergen">
+				<figcaption>
+					The Hanseatic League Buildings,<br> walking further down Bryggen
+				</figcaption>
+			</figure>
+			<p id="p3TextDecor">
+				Time is like money,<br>
+				you spend it
+			</p>
+		</section>
+		<section id="el4">
+			<figure>
+				<img src="img/sjoboden1.png" alt="Sjoboden, a bar, located in Bryggen, Bergen">
+				<figcaption>
+					Journey ends at Sjøboden,<br>
+					a local pub on the docks
+				</figcaption>	
+			</figure>
+			<p id="p4TextDecor">
+				Just don't spend it on<br>
+				the wrong things
+			</p>
+		</section>
+		<footer>
+			<a href="#time">Start over</a><br>
+        	2016 &copy; 
+		</footer>
+		<script>
+			function swapStyleSheet(sheet) {
+				document.getElementById("pagestyle").setAttribute("href", sheet);
+			}
+		</script>
+		<!-- Source: http://hellopoetry.com/words/154/time/poems/-->
+	</body>
+</html>
